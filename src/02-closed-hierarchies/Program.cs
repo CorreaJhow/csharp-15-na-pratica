@@ -1,6 +1,8 @@
 // Closed hierarchies (C# 15): mesma checagem exaustiva do union,
 // mas mantendo herança (dados em comum na classe base).
 
+System.Globalization.CultureInfo.CurrentCulture = new("pt-BR"); // R$ e vírgula em qualquer máquina
+
 Pagamento[] pagamentos =
 [
     new Pix(120.50m, "jhow@exemplo.com"),
